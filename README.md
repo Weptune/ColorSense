@@ -28,33 +28,11 @@
 
 | Feature                | Output                          |
 |------------------------|----------------------------------|
-| Original RGB Timeline  | ![Original RGB](./outputs/runs/run_YYYYMMDD_HHMMSS/rgb_timeline_original_plot.png) |
-| Graded RGB Timeline    | ![Graded RGB](./outputs/runs/run_YYYYMMDD_HHMMSS/rgb_timeline_graded_plot.png) |
+| Original RGB Timeline  | ![Original RGB](![original_rgb_timeline](https://github.com/user-attachments/assets/19b89dc8-6c9e-4643-b325-6734fd59c186)) |
+| Graded RGB Timeline    | ![Graded RGB](![graded_rgb_timeline](https://github.com/user-attachments/assets/ff43a2cb-2084-4fff-9963-408dfa871650)) |
 | Enhanced Video         | `outputs/runs/run_*/graded_video_*.mp4` |
 
 ---
-
-## 📁 Project Structure
-
-colorsense/
-│
-├── colorsense/
-│ ├── init.py
-│ ├── color_analysis.py # Frame extraction, RGB mean calculation, RGB plots
-│ ├── color_grading.py # Tint logic based on emotion & intensity
-│ ├── emotion_detector/
-│ │ ├── init.py
-│ │ └── model.py # RGB-based emotion prediction
-│ └── run_pipeline.py # Main orchestration script
-│
-├── inputs/ # Put input videos here
-├── outputs/
-│ └── runs/run_/ # Auto-created folders for each run
-│ ├── rgb_timeline_original_plot.png
-│ ├── rgb_timeline_graded_plot.png
-│ ├── graded_video_.mp4
-│ └── frames/
-│ └── frame_000.jpg ...
 
 ## 🧠 Supported Emotions
 - happy
